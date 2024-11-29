@@ -1,0 +1,10 @@
+commands:
+  send:
+    description: 发送群聊或私聊消息，支持多段消息和多种消息类型。指令后跟私聊账号或群号，插件会自动识别，然后发送你想要发送的消息即可
+    options:
+      essence: 为群聊消息设置精华标记
+    messages:
+      what_to_send: 请发送要广播的消息
+      timeout: 操作超时
+      sent: 消息已发送
+      invalid_target: 无效的对象 {0}
